@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/mustard-ui.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Unit 16</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <section>
+            <p><b>Task 3.</b></p>
+            <p>При нажатии .b-3 выполняете функцию f3. Функция получает div.out-3 со страницы с помощью getElementsByClassName и в каждый записывает число 3, перезаписывая содержимое div.</p>
+            <button class="button-primary b-3">Task-3</button>
+            <div class="out-3">out-3</div>
+            <div class="out-3">out-3</div>
+            <div class="out-3">out-3</div>
+        </section>
+
+        <section>
+            <p><b>Task 4.</b></p>
+            <p>При нажатии .b-4 выполняете функцию f4. Функция получает div.out-4 со страницы с помощью querySelectorAll и в каждый дописывает число 4.</p>
+            <button class="button-primary b-4">Task-4</button>
+            <div class="out-4">out-4</div>
+            <div class="out-4">out-4</div>
+            <div class="out-4">out-4</div>
+        </section>
+
+        <section>
+            <p><b>Task 5.</b></p>
+            <p>При нажатии .b-5 выполняете функцию f5. Функция должна: </p>
+            <p>1. Получить все div.out-5 со страницы в массив a5. </p>
+            <p>2. Cоздать новые div.out-5 через createElement. Добавить с помощью push созданный div в массив a5.</p>
+            <p>Поскольку для коллекций push запрещен - то данная операция должна вызывать ошибку. Убедитесь в этом. Чтобы экранировать ошибку и не дать ей влиять на работу документа в целом, применим try, catch. </p>
+            <button class="button-primary b-5">Task-5</button>
+            <div class="out-5">out-5</div>
+            <div class="out-5">out-5</div>
+            <div class="out-5">out-5</div>
+            <div class="out-5">out-5</div>
+        </section>
+
+        <section>
+            <p><b>Task 6.</b></p>
+            <p>При нажатии .b-6 выполняете функцию f6. Функция должна превратить массив a6 в одномерный. Результат вывести в out-6 через пробел.</p>
+            <button class="button-primary b-6">Task-6</button>
+            <div class="out-6"></div>
+        </section>
+
+        <section>
+            <p><b>Task 7.</b></p>
+            <p> При нажатии .b-7 выполняете функцию f7. Функция должна переиндексировать массив a7. Что имеется ввиду. Сейчас у нас обычный массив, который содержит вложенные объекты. Вам необходимо сделать из a7 объект, где ключи - значения id из вложенных массивов, а значения - имя (т.е { 23 : Ivan, 45 : Petr}</p>
+            <button class="button-primary b-7">Task-7</button>
+        </section>
+
+        <section>
+            <p><b>Task 11.</b></p>
+            <p>При нажатии .b-11 выполняете функцию f11. Функция должна c помощью for in перебрать объект a11 и вывести в out-11 только те значения, которые больше 10. Вывод - через пробел.</p>
+            <button class="button-primary b-11">Task-11</button>
+            <div class="out-11"></div>
+        </section>
+
+    </div>
+
+    <script src="unit_16.js"></script>
+</body>
+
+</html>
