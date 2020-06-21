@@ -30,13 +30,13 @@ class Goods2 extends Goods {
     }
 }
 
- goods = new Goods('svekla', 100)
+ let goods = new Goods('svekla', 100)
  console.log(goods)
 
- goods2 = new Goods('tikva', 150, 'link', 20)
+ let goods2 = new Goods('tikva', 150, 'link', 20)
  goods2.draw('.out-4')
 
- goods3 = new Goods2('sliva', 200, 'another link', 22, 'yes')
+ let goods3 = new Goods2('sliva', 200, 'another link', 22, 'yes')
  goods3.draw('.out-6')
 
 
@@ -79,17 +79,17 @@ class Valid2 extends Valid {
 
 }
 
-valid = new Valid('some@mail.ru', 'abcde')
+let valid = new Valid('some@mail.ru', 'abcde')
 console.log(valid.validate())
 
-valid2 = new Valid('some2@mail.ru', 'abcdefg')
+let valid2 = new Valid('some2@mail.ru', 'abcdefg')
 console.log(valid2.validate())
 
-valid3 = new Valid2('', 'abcdefgh')
+let valid3 = new Valid2('', 'abcdefgh')
 valid3.validate()
 console.log(valid3)
 
-valid4 = new Valid2('some4@mail.ru', 'abcdefgh')
+let valid4 = new Valid2('some4@mail.ru', 'abcdefgh')
 valid4.validate()
 console.log(valid4)
 
